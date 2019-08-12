@@ -30,9 +30,4 @@ ActiveRecord::Schema.define(version: 2019_04_06_180540) do
     t.decimal "price"
   end
 
-  create_table "simple_pages", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
 end
