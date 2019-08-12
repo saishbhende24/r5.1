@@ -3,7 +3,11 @@
 //
 //= require action_cable
 //= require_self
+<<<<<<< HEAD
 //= require_tree ./channels
+=======
+//= require_tree .
+>>>>>>> c601db947f6eb25d4729ff843509703b308fdedb
 
 (function() {
   this.App || (this.App = {});
